@@ -1,0 +1,105 @@
+body, html {
+    #height: auto;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+nav {
+    z-index: 1;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.nav-item@media (min-width: 992px) {
+}
+
+.trademark {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "Times New Roman", Serif;
+}
+
+.p-content {
+    padding: 5% 100px 0 100px;
+}
+
+h6 {
+    text-transform: lowercase;
+    color: #6c757d;
+    font-weight: bolder;
+    font-size: 12pt;
+    font-style: italic;
+    font-family: "FiraCodeiScript", "Lucida Console", monospace;
+    font-stretch: extra-expanded;
+}
+
+.text-white h6 {
+    color: rgba(198,199,200,1);
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.googleCalendar{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.googleCalendar iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.logos {
+    min-height: 200px;
+    margin-bottom: 200px;
+}
+
+.contact {
+    list-style: none;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    height:80px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer p {
+    top: 30%;
+}
+
+.fira {
+    font-family: FiraCodeiScript;
+}
+
+@font-face {
+    font-family: "FiraCodeiScript";
+    src: url("FiraCodeiScript-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FiraCodeiScript";
+    src: url("FiraCodeiScript-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FiraCodeiScript";
+    src: url("FiraCodeiScript-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
